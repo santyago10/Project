@@ -1,0 +1,243 @@
+body{
+    text-align: center;
+    background-color:#D7DCF1;
+    padding:0;
+    margin:0;
+}
+
+.header{
+    height:80px;
+    background-color: #5270E8;
+    margin:0;
+    padding:0;
+    position: absolute;
+    width:100%;
+}
+
+.headerCaption{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin:20px;
+}
+
+.main{
+    height:600px;
+    width:1270px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top:-300px;
+    margin-left:-635px;
+    padding: 0;
+}
+
+.main img{
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+}
+
+.list{
+    width:1000px;
+    height:100%;
+    position: absolute;
+    left:50%;
+    margin:20px 0 0 -500px;
+    list-style-type: none;
+    float: left;
+    padding:0;
+}
+
+.innerList{
+    display: inline-block;
+    margin:50px;
+    margin-top:0px;
+    text-align: center;
+
+}
+
+.innerList:hover{
+    background-color: #93A5EC;
+
+}
+
+.caption{
+    margin-top:5px;
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.active{
+    background-color: #5270E8
+}
+
+.submitButton{
+    margin-top:750px;
+    width:100px;
+    height: 30px;
+    background-color: #5270E8;
+    border: none;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.submitButton:hover{
+    background-color: #3949E3;
+    color:white;
+}
+
+@media(max-width:900px){
+    .main{
+        height:550px;
+        width:900px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        margin-top:-300px;
+        margin-left:-450px;
+        padding: 0;
+    }
+
+    .main img{
+        width:150px;
+        height:150px;
+        border-radius: 100px;
+    }
+
+    .list{
+        width:950px;
+        height:100%;
+        position: absolute;
+        left:50%;
+        margin:20px 0 0 -500px;
+        list-style-type: none;
+        float: left;
+        padding:0;
+    }
+    
+    .innerList{
+        display: inline-block;
+        margin:50px;
+        margin-top:0px;
+        text-align: center;
+    
+    }
+
+    .submitButton{
+        margin-top:600px;
+        margin-left:-50px;
+        width:100px;
+        height: 30px;
+        background-color: #5270E8;
+        border: none;
+        color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+}
+
+@media(max-width:700px){
+    .main{
+        height:1000px;
+        width:600px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        margin-top:-300px;
+        margin-left:-100px;
+        padding: 0;
+    }
+
+    .main img{
+        width:125px;
+        height:125px;
+        border-radius: 100px;
+    }
+
+    .list{
+        width:600px;
+        height:100%;
+        position: absolute;
+        left:50%;
+        margin:20px 0 0 -500px;
+        list-style-type: none;
+        float: left;
+        padding:0;
+    }
+    
+    .innerList{
+        display: inline-block;
+        margin:50px;
+        margin-top:0px;
+        text-align: center;
+    
+    }
+
+    .submitButton{
+        margin-top:825px;
+        margin-left:0;
+        width:100px;
+        height: 30px;
+        background-color: #5270E8;
+        border: none;
+        color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+}
+
+@media(min-width:500px)and(max-width:700px){
+    .main{
+        height:1000px;
+        width:600px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        margin-top:-300px;
+        margin-left:-100px;
+        padding: 0;
+    }
+
+    .main img{
+        width:125px;
+        height:125px;
+        border-radius: 100px;
+    }
+
+    .list{
+        width:600px;
+        height:100%;
+        position: absolute;
+        left:50%;
+        margin:20px 0 0 -500px;
+        list-style-type: none;
+        float: left;
+        padding:0;
+    }
+    
+    .innerList{
+        display: inline-block;
+        margin:50px;
+        margin-top:0px;
+        text-align: center;
+    
+    }
+
+    .submitButton{
+        margin-top:855px;
+        margin-left:0;
+        width:100px;
+        height: 30px;
+        background-color: #5270E8;
+        border: none;
+        color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+}
+
+
+
+
+
