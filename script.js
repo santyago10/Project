@@ -63,20 +63,31 @@ $(function(){
                 items[i].classList.add("active");
                 
             }
-        }
+		}
+		e.stopPropagation();
     });   
 });
 
+$(function(){
+	$("body").click(function(){
+		for(let i=0;i<items.length;i++){
+			items[i].classList.remove("active");
+		}
+		selectedItem=undefined;
+	});
+});
 
-showID=(e)=>{
+showID=()=>{
     if(selectedItem===undefined){
         //Если элемент не выбран, выводится сообщение
-        alert("Please, select a fighter");
+		alert("Please, select a fighter");
     }
     else
-    alert(selectedItem);
+	alert("Your fighter's ID is "+selectedItem);
 }
 
-    
+
+
+
 
 

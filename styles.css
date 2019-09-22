@@ -73,13 +73,19 @@ body{
 }
 
 .submitButton{
-    margin-top:750px;
+    position: absolute;
+    top:750px;
+    left:50%;
+    margin-left:-50px;
     width:100px;
-    height: 30px;
+    height: 25px;
     background-color: #5270E8;
     border: none;
     color:white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:block;
+    cursor: pointer;
+    padding-top:5px;
 }
 
 .submitButton:hover{
@@ -125,15 +131,21 @@ body{
     }
 
     .submitButton{
-        margin-top:600px;
-        margin-left:-50px;
+        position: absolute;
+        top:600px;
+        left:50%;
+        margin-left:-75px;
         width:100px;
-        height: 30px;
+        height: 25px;
         background-color: #5270E8;
         border: none;
         color:white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display:block;
+        cursor: pointer;
+        padding-top:5px;
     }
+    
 
 }
 
@@ -175,15 +187,21 @@ body{
     }
 
     .submitButton{
-        margin-top:825px;
-        margin-left:0;
+        position: absolute;
+        top:750px;
+        left:50%;
+        margin-left:-50px;
         width:100px;
-        height: 30px;
+        height: 25px;
         background-color: #5270E8;
         border: none;
         color:white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display:block;
+        cursor: pointer;
+        padding-top:5px;
     }
+    
 
 }
 
@@ -225,16 +243,21 @@ body{
     }
 
     .submitButton{
-        margin-top:855px;
-        margin-left:0;
+        position: absolute;
+        top:750px;
+        left:50%;
+        margin-left:-50px;
         width:100px;
-        height: 30px;
+        height: 25px;
         background-color: #5270E8;
         border: none;
         color:white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display:block;
+        cursor: pointer;
+        padding-top:5px;
     }
-
+    
 }
 
 
